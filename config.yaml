@@ -1,0 +1,18 @@
+Days:
+    - Monday
+    - Tuesday
+    - Wednesday
+    - Thursday
+    - Friday
+    - Saturday
+    - Sunday
+Time:
+    - '01:00'
+Nomenclature:
+    Monday: M
+    Tuesday: T
+    Wednesday: W
+    Thursday: R
+    Friday: F
+    Saturday: S
+    Sunday: U
