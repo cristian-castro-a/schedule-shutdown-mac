@@ -22,6 +22,7 @@ def run(config_file: Path) -> None:
     time_of_the_day = f"{config['Time'][0]}:00"
 
     os.system(f"sudo pmset repeat shutdown {days_of_the_week} {time_of_the_day}")
+    os.system("pmset -g sched")
 
 
 if __name__ == '__main__':
