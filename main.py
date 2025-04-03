@@ -1,8 +1,9 @@
-import yaml
+import os
 from pathlib import Path
 from typing import Dict
+
+import yaml
 from yaml.loader import BaseLoader
-import os
 
 CONFIG_FILE = 'config.yaml'
 
